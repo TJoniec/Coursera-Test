@@ -10,7 +10,7 @@ $scope.name="Tony in Div 1";
 
 $scope.functionReturn = (function ($scope){
     return "Hello from a function call";
-})
+});
 
 })
 
