@@ -5,11 +5,13 @@
 angular.module('myFirstApp', [])
 
 .controller('MyFirstController', function($scope) {
-$scope.name="Tony";
-$scope.sayHello = function () {
-  return "Hello World";
-};
-
+$scope.name="Tony in Div 1";
 })
+
+.controller('MySecondController', function($scope) {
+$scope.name="Tony in Div 2";
+})
+
+
 
 })();
